@@ -12,10 +12,14 @@ sections:
       text: |
         🌏 Native Chinese | English IELTS 6.5  
         💻 Python & MATLAB  
-  #- block: markdown
-    #content:
-      #title: 论文
-      #text: |
-        ### 2025年
-         #1. Weiming Xiong, Mingyang Zhong, Shenglin Li, Haibin Zhu, Guojun Huang, Libo Zhang, RUL: Region Uncertainty Learning for Robust Face Recognition\[J\]. *IEEE Transactions on Multimedia*.(中科院一区)
+  - block: accomplishments
+    content:
+      title: Honors & Awards
+      items:
+        - date_start: '2026-05-01'
+          date_end: ''
+          description: ''
+          organization: FRQNT (Fonds de recherche du Québec – Nature et technologies)
+          organization_url: 'https://frq.gouv.qc.ca/nature-et-technologies/'
+          title: Doctoral Research Scholarship (B2X)
 ---
