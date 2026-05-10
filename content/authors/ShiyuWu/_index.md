@@ -77,4 +77,8 @@ user_groups:
 #  - Visitors   如果增加会添加一个类别
 ---
 
-Shiyu Wu is a graduate student in Computer Science at Southwest University. His research interests include team collaboration optimization, intelligent decision-making, and E-CARGO-based modeling. He has published papers in leading journals such as IEEE Transactions on Systems, Man and Cybernetics and IEEE Transactions on Cybernetics, and presented his work at international conferences like CSCWD. Currently, he is focusing on role-based collaboration and the development of self-organizing multi-agent systems for task allocation and coordination. He is an active member of the E-CARGO research community and is committed to advancing intelligent collaborative systems.
+Shiyu Wu is currently a PhD student at the Concordia Institute for Information Systems Engineering (CIISE), Concordia University, Montreal, Canada. He received his B.Eng. and M.Eng. degrees in School of Artificial Intelligence from Southwest University, China.
+
+His current research interests center on Urban Mobility and Intelligent Collaborative Systems, with a specific focus on Mobility-on-Demand (MoD), Digital Twins (DT), and the integration of Large Language Models (LLMs) in urban planning. He leverages the E-CARGO modeling framework and Simulation-based Optimization (SBO) to address complex task allocation and coordination challenges in multi-agent systems.
+
+Shiyu is a recipient of the prestigious FRQNT Doctoral Research Scholarship (2026). His research has been published in leading journals, including IEEE Transactions on Systems, Man, and Cybernetics: Systems, and he regularly presents his work at international conferences such as CSCWD. He is an active member of the E-CARGO research community, dedicated to advancing the efficiency and autonomy of next-generation mobility systems.
