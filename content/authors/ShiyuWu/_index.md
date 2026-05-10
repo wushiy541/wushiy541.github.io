@@ -27,7 +27,9 @@ organizations:
 interests:
   - Role-based Collaboration
   - E-cargo
-  - Group role assignment
+  - Digital twin
+  - Simulation-based optimization
+  - Mobility on demand
 
 
 education:
