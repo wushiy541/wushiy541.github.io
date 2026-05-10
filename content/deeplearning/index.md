@@ -7,11 +7,10 @@ type: landing
 sections:
   - block: hero
     content:
-      title: |
-        Skills & Hobbies
+      title: Skills & Hobbies
       text: |
         🌏 Native Chinese | English IELTS 6.5  
-        💻 Python & MATLAB  
+        💻 Python | MATLAB | AnyLogic
   - block: accomplishments
     content:
       title: Honors & Awards
