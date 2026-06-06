@@ -1,22 +1,31 @@
 # Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+# Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  languageName: English
+  title: Shiyu Wu
+  menu:
+    main:
+      - name: Home
+        url: tour
+        weight: 10
+      - name: Experience
+        url: deeplearning
+        weight: 20
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh:
+  languageCode: zh-Hans
+  languageName: 中文
+  contentDir: content/zh
+  title: 武士裕
+  params:
+    description: 武士裕的个人学术主页，研究方向包括智能协作系统、城市出行、数字孪生与 E-CARGO。
+  menu:
+    main:
+      - name: 首页
+        url: tour
+        weight: 10
+      - name: 经历
+        url: deeplearning
+        weight: 20

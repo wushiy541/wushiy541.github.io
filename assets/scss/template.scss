@@ -7,3 +7,217 @@
 .cta-group {
   justify-content: center;
 }
+
+:root {
+  --site-ink: #17212f;
+  --site-muted: #637083;
+  --site-accent: #0f766e;
+  --site-accent-strong: #0b5f59;
+  --site-line: rgba(23, 33, 47, 0.12);
+  --site-panel: rgba(255, 255, 255, 0.88);
+  --site-shadow: 0 18px 45px rgba(23, 33, 47, 0.12);
+}
+
+body {
+  color: var(--site-ink);
+  background:
+    linear-gradient(180deg, rgba(242, 247, 247, 0.96) 0%, rgba(255, 255, 255, 1) 42%),
+    #fff;
+}
+
+.navbar {
+  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.86) !important;
+  border-bottom: 1px solid rgba(23, 33, 47, 0.08);
+  box-shadow: 0 8px 28px rgba(23, 33, 47, 0.06);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: var(--site-ink) !important;
+  font-weight: 650;
+}
+
+.navbar-nav .nav-link {
+  border-radius: 8px;
+  margin: 0 0.12rem;
+  padding: 0.45rem 0.72rem !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: var(--site-accent-strong) !important;
+  background: rgba(15, 118, 110, 0.09);
+}
+
+.page-body section:first-of-type {
+  position: relative;
+  min-height: 76vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.page-body section:first-of-type::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(9, 20, 31, 0.82) 0%, rgba(9, 20, 31, 0.58) 44%, rgba(9, 20, 31, 0.24) 100%),
+    linear-gradient(180deg, rgba(9, 20, 31, 0.10) 0%, rgba(9, 20, 31, 0.68) 100%);
+  pointer-events: none;
+}
+
+.page-body section:first-of-type > .container {
+  position: relative;
+  z-index: 1;
+}
+
+.portrait {
+  border: 4px solid rgba(255, 255, 255, 0.88);
+  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.28);
+}
+
+.portrait-title h2,
+.portrait-title h3,
+.network-icon a {
+  color: #fff !important;
+}
+
+.portrait-title h2 {
+  font-weight: 800;
+}
+
+.portrait-title h3 {
+  opacity: 0.9;
+}
+
+.page-body section:first-of-type,
+.page-body section:first-of-type p,
+.page-body section:first-of-type .article-style,
+.page-body section:first-of-type .section-subheading,
+.page-body section:first-of-type .section-heading h1,
+.page-body section:first-of-type .section-heading h2 {
+  color: rgba(255, 255, 255, 0.94) !important;
+}
+
+.page-body section:first-of-type a {
+  color: #fff !important;
+  text-decoration-color: rgba(255, 255, 255, 0.58);
+}
+
+#profile .interests,
+#profile .education {
+  color: rgba(255, 255, 255, 0.94);
+}
+
+.home-section,
+.section {
+  padding: 4.5rem 0;
+}
+
+.section-heading h1,
+.section-heading h2,
+.home-section h1,
+.home-section h2 {
+  color: var(--site-ink);
+  font-weight: 800;
+}
+
+.article-style,
+.prose,
+.home-section .markdown,
+.home-section .section-content {
+  line-height: 1.78;
+}
+
+.home-section .article-style {
+  color: var(--site-muted);
+}
+
+.home-section .article-style h3 {
+  display: inline-flex;
+  align-items: center;
+  color: var(--site-accent-strong);
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  margin: 1.45rem 0 0.8rem;
+  padding: 0.28rem 0.72rem;
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  border-radius: 8px;
+  background: rgba(15, 118, 110, 0.08);
+}
+
+.home-section .article-style ol {
+  display: grid;
+  gap: 0.72rem;
+  padding-left: 1.1rem;
+}
+
+.home-section .article-style li {
+  margin: 0;
+  padding: 0.86rem 1rem;
+  color: var(--site-ink);
+  background: var(--site-panel);
+  border: 1px solid var(--site-line);
+  border-radius: 8px;
+  box-shadow: 0 10px 26px rgba(23, 33, 47, 0.06);
+}
+
+.home-section .article-style a {
+  color: var(--site-accent-strong);
+  font-weight: 700;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.home-section img {
+  border-radius: 8px;
+  box-shadow: var(--site-shadow);
+}
+
+.hero-title {
+  font-weight: 850;
+}
+
+.hero-lead {
+  color: var(--site-muted);
+}
+
+.dark .navbar {
+  background: rgba(17, 24, 39, 0.86) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .navbar-brand,
+.dark .navbar-nav .nav-link {
+  color: #f8fafc !important;
+}
+
+.dark body {
+  color: #f8fafc;
+  background: #111827;
+}
+
+.dark .home-section .article-style li {
+  background: rgba(17, 24, 39, 0.72);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #f8fafc;
+}
+
+@media (max-width: 768px) {
+  .page-body section:first-of-type {
+    min-height: auto;
+    padding: 5.5rem 0 3rem;
+  }
+
+  .home-section,
+  .section {
+    padding: 3rem 0;
+  }
+
+  .home-section .article-style li {
+    padding: 0.78rem 0.86rem;
+  }
+}
