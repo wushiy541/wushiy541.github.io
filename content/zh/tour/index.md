@@ -17,7 +17,7 @@ sections:
       username: ShiyuWu
   - block: markdown
     content:
-      title: E-CARGO 论文
+      title: 论文
       image:
         filename: ec.jpg
       text: |
