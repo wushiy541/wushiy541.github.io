@@ -13,9 +13,6 @@ en:
       - name: Experience
         url: deeplearning
         weight: 20
-      - name: Ayakaleaf (LAN only)
-        url: http://192.168.0.139:8080/
-        weight: 30
 
 zh:
   languageCode: zh-Hans
@@ -32,6 +29,3 @@ zh:
       - name: 经历
         url: deeplearning
         weight: 20
-      - name: Ayakaleaf（仅局域网）
-        url: http://192.168.0.139:8080/
-        weight: 30
