@@ -10,3 +10,6 @@ main:
   - name: Experience
     url: deeplearning
     weight: 20
+  - name: Ayakaleaf（仅局域网）
+    url: http://192.168.0.139:8080/
+    weight: 30
