@@ -1,0 +1,14 @@
+{{ $label := cond (eq site.Language.Lang "zh") "Ayakaleaf（仅局域网）" "Ayakaleaf (LAN only)" }}
+<style>
+  .ayakaleaf-shortcut { text-align: right; margin: 0 0 .25rem; }
+  .ayakaleaf-shortcut a { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; color: inherit; opacity: .35; text-decoration: none; }
+  .ayakaleaf-shortcut a:hover, .ayakaleaf-shortcut a:focus-visible { opacity: .85; }
+  .ayakaleaf-shortcut a:focus-visible { outline: 1px solid currentColor; outline-offset: 2px; border-radius: 3px; }
+</style>
+<div class="ayakaleaf-shortcut">
+  <a href="http://192.168.0.139:8080/" target="_blank" rel="noopener noreferrer" title="{{ $label }}" aria-label="{{ $label }}">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+      <path d="M12 20h9M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+    </svg>
+  </a>
+</div>
